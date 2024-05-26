@@ -1,5 +1,9 @@
 //Start coding here
 // Define the greeting variable with a newline character
-const greeting = "Hello ! 😁 \nThis line will be executed without any error.";
-
-console.log(greeting);
+const greeting = function () {
+    console.log("Hello ! 😁");
+  };
+  
+  greeting();
+  
+  console.log("This line will be executed without any error.");
